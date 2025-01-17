@@ -1,0 +1,41 @@
+package com.gopi.mapsetter;
+
+import java.util.Map;
+
+public class Shop {
+
+	private int id;
+	private String name;
+	private String loc;
+	private Map<Integer,String> items;
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getLoc() {
+		return loc;
+	}
+	public void setLoc(String loc) {
+		this.loc = loc;
+	}
+	public Map<Integer, String> getItems() {
+		return items;
+	}
+	public void setItems(Map<Integer, String> items) {
+		this.items = items;
+	}
+	@Override
+	public String toString() {
+		return "Shop -> id=" + id + ", name=" + name + ", loc=" + loc + ", items=" + items + " ";
+	}
+	
+	
+}

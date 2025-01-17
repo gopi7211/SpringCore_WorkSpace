@@ -1,0 +1,8 @@
+package com.gopi.entity;
+
+public class Person {
+
+	private Mobile mobile;
+	
+	
+}

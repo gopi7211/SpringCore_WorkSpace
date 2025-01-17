@@ -1,0 +1,16 @@
+package com.gopi.entity;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		BeanFactory factory = new ClassPathXmlApplicationContext("/DI-inject-object-to_variable-setter/src/main/java/Configure.xml");
+		
+		Person person = factory.getBean("myperson",Person.class);
+		
+		person.use();
+	}
+}

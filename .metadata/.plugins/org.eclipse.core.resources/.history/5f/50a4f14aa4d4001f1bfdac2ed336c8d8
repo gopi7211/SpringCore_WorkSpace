@@ -1,0 +1,7 @@
+package com.gopi.mapsetter;
+
+public class Shop {
+
+	private int id;
+	private
+}

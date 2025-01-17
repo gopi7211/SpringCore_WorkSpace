@@ -1,0 +1,11 @@
+package com.gopi.entity;
+
+import org.springframework.beans.factory.BeanFactory;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		BeanFactory factory = new CPX
+	}
+}

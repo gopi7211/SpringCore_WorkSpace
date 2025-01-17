@@ -1,0 +1,11 @@
+package com.gopi.mapsetter;
+
+import java.util.Map;
+
+public class Shop {
+
+	private int id;
+	private String name;
+	private String loc;
+	private Map<Integer,String> items;
+}

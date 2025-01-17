@@ -1,0 +1,5 @@
+package com.gopi.entity;
+
+public class Student {
+
+}
